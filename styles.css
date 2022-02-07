@@ -1,0 +1,41 @@
+.vw-vh{
+    width: 90vw;
+    height: 90vh;
+            }
+
+@font-face{
+  font-family: newbaosong;
+  src: url(fonts/FZNBSK.TTF);
+     }
+
+body {
+  background-color: #949799;
+  color: #c2ffd3;
+  font-family: newbaosong,times new roman,serif;
+  font-size: 54px;
+  text-align: left;
+  padding: .5em;
+  position: fixed;
+      }
+Div{
+    position: fixed;
+    left: .5em;
+    bottom: .5em;
+}
+
+a {
+    cursor: url("images/cursor.png"),  
+            default;
+    color: #c2ffd3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #48a160;
+    background-color: #e9e1f2;
+}
+
+sup{
+    font-size: 30px;
+}
+
