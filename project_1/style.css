@@ -1,0 +1,31 @@
+@font-face {
+	font-family: glockgrotesque;
+	src: url(fonts/GlockGrotesque2-Medium.otf);
+}
+
+body{
+	align-content: center;
+	background-color: #FAF8EE;
+	color: #2C2B2B;
+	font-size: 40px;
+	font-family: glockgrotesque,helvetica,sans-serif;
+}
+
+div{
+	padding: 1.25rem;
+	align-self:center;
+}
+
+.block{
+	border: 2.5px solid #0051F3;
+	border-radius: 25px;
+}
+
+.box{
+	border: 2.5px solid #2C6DF0;
+	border-radius: 25px;
+}
+
+#padding-top {
+	padding-top: 1rem;
+}
