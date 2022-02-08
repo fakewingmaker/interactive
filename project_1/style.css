@@ -12,12 +12,15 @@ body{
 }
 
 div{
-	padding: 1.25rem;
+	padding: 5rem;
 	align-self:center;
 }
 
 .block{
-	border: 2.5px solid #0051F3;
+	border-top: 2.5px solid #0051F3;
+	border-left: 2.5px solid #0051F3;
+	border-right: 2.5px solid #0051F3;
+	border-bottom: 0px;
 	border-radius: 25px;
 }
 

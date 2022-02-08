@@ -1,0 +1,37 @@
+body{
+	background-image: linear-gradient(to bottom, #cce7ed, #203745);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+}
+
+#sealevel {
+	width: 100vw;
+	top: 50vh;
+	left: 0vw;
+	right: 0vw;
+	position: relative;
+}
+
+#seabed{
+	width: 100vw;
+	top: 500px;
+	bottom: 0vh;
+	position: absolute;
+}
+
+#cloud1 {
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left: 25px;
+}
+
+#cloud2 {
+	width: 700px;
+	position: absolute;
+	top: 50px;
+	right: 100px;
+}
+
