@@ -12,21 +12,44 @@ body{
 }
 
 div{
-	padding: 5rem;
+	padding: 1rem;
 	align-self:center;
 }
 
 .block{
-	border-top: 2.5px solid #0051F3;
-	border-left: 2.5px solid #0051F3;
-	border-right: 2.5px solid #0051F3;
-	border-bottom: 0px;
+	border: 2.5px solid #005BBB;
 	border-radius: 25px;
 }
 
 .box{
 	border: 2.5px solid #2C6DF0;
 	border-radius: 25px;
+}
+
+a{
+	color: #2c2b2b;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FFD500;
+}
+
+.container{
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	border: 2.5px solid #005BBB;
+	border-radius: 25px;
+	background-color: #faf8ee;
+	transition-property: background;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+
+}
+
+.container:hover{
+	color: #FFD500;
+	background-color: #005bbb;
 }
 
 #padding-top {
