@@ -18,15 +18,21 @@ div{
 
 .block{
 	border: 2.5px solid #005BBB;
-	border-radius: 25px;
+	border-radius: 10px;
 }
 
 .box{
 	border: 2.5px solid #2C6DF0;
-	border-radius: 25px;
+	border-radius: 10px;
+}
+
+#center{
+	align-content: center;
+	text-align: center;
 }
 
 a{
+	padding: .5rem;
 	color: #2c2b2b;
 	text-decoration: none;
 }
@@ -39,7 +45,7 @@ a:hover{
 	display: inline-grid;
 	grid-template-columns: auto auto auto auto auto auto auto;
 	border: 2.5px solid #005BBB;
-	border-radius: 25px;
+	border-radius: 10px;
 	background-color: #faf8ee;
 	transition-property: background;
     transition-duration: .5s;
@@ -49,8 +55,28 @@ a:hover{
 
 .container:hover{
 	color: #FFD500;
+	font-size: 30px;
+	padding: 1.5rem;
+	border-radius: 50px;
 	background-color: #005bbb;
 }
+
+.text{
+	border: 2.5px solid #005BBB;
+	border-radius: 10px;
+	background-color: #faf8ee;
+	transition-property: background;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+.text:hover{
+	color: #FFD500;
+	padding: 1.5rem;
+	border-radius: 50px;
+	background-color: #005bbb;
+}
+
 
 #padding-top {
 	padding-top: 1rem;
