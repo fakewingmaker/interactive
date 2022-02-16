@@ -3,16 +3,33 @@
 	src: url(fonts/GlockGrotesque2-Medium.otf);
 }
 
+@font-face{
+	font-family: craftworksans-regular;
+	src: url(fonts/CraftworkSans-Regular.ttf);
+}
+
+@font-face{
+	font-family: craftworksans-medium;
+	src: url(fonts/CraftworkSans-Medium.ttf);
+}
+
+@font-face{
+	font-family: craftworksans-bold;
+	src: url(fonts/CraftworkSans-Bold.ttf);
+}
+
 body{
 	align-content: center;
 	background-color: #FAF8EE;
 	color: #2C2B2B;
 	font-size: 40px;
-	font-family: glockgrotesque,helvetica,sans-serif;
+	font-family: craftworksans-regular,helvetica,sans-serif;
 }
 
 div{
-	padding: 1rem;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	padding: 2rem;
 	align-self:center;
 }
 
@@ -22,7 +39,8 @@ div{
 }
 
 .box{
-	border: 0px solid #2C6DF0 0%;
+	height: 100px;
+	border: 1px solid #2C6DF0 0%;
 	border-radius: 10px;
 }
 
@@ -39,6 +57,11 @@ a{
 
 a:hover{
 	color: #FFD500;
+}
+
+b{
+	font-family:craftworksans-medium;
+	font-weight: 400;
 }
 
 .container{
@@ -62,21 +85,39 @@ a:hover{
 }
 
 .text{
+	width:90vw;
+	margin-top: 1rem;
+	font-family: glockgrotesque;
+	font-size: 30px;
 	border: 2.5px solid #005BBB;
 	border-radius: 10px;
 	background-color: #faf8ee;
-	transition-property: background;
     transition-duration: .5s;
     transition-timing-function: linear;
 }
 
 .text:hover{
+	width:75vw;
+	margin-top: 1rem;
+	font-size: 30px;
 	color: #FFD500;
-	padding: 1.5rem;
 	border-radius: 50px;
+	padding: 2.5rem;
 	background-color: #005bbb;
 }
 
+.bg{
+	font-size: 40px;
+	color:#2C2B2B ;
+	transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+.bg:hover{
+	font-size: 50px;
+	color: #FFD500;
+	background-color: #005bbb;
+}
 
 #padding-top {
 	padding-top: 1rem;
