@@ -18,6 +18,10 @@
 	src: url(fonts/CraftworkSans-Bold.ttf);
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	align-content: center;
 	background-color: #FAF8EE;
@@ -29,7 +33,7 @@ body{
 div{
 	margin-top: .5rem;
 	margin-bottom: .5rem;
-	padding: 2rem;
+	padding: 2vw;
 }
 
 img{
