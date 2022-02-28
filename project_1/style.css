@@ -95,7 +95,7 @@ b{
 
 .text{
 	width:90%;
-	margin-top: 1rem;
+	margin-bottom: 1rem;
 	font-family: glockgrotesque, ARIAL, sans-serif;
 	font-size: 2vw;
 	border: 2.5px solid #005BBB;
@@ -128,6 +128,12 @@ b{
 
 #padding-top {
 	padding-top: 1rem;
+}
+
+p{
+	font-family: craftworksans-regular;
+	font-size: 10px;
+	align-content: left;
 }
 
 @media screen and (max-width: 576px){
@@ -168,9 +174,9 @@ b{
 
   .text{
 	width:90%;
-	margin-top: 1rem;
+	margin-bottom: 1rem;
 	font-family: glockgrotesque;
-	font-size: 3vw;
+	font-size: 20px;
 	padding: 2.5vw;
 	border: 1.5px solid #FFD500;
 	border-radius: 10px;
@@ -181,7 +187,7 @@ b{
 	width:90%;
 	margin-top: 1rem;
 	font-family: glockgrotesque;
-	font-size: 4vw;
+	font-size: 24px;
 	border: 1.5px solid #FFD500;
 	border-radius: 10px;
 	background-color: #005bbb;
