@@ -22,7 +22,7 @@ body{
 	align-content: center;
 	background-color: #FAF8EE;
 	color: #2C2B2B;
-	font-size: 40px;
+	font-size: 3.8vw;
 	font-family: craftworksans-regular,helvetica,sans-serif;
 }
 
@@ -33,8 +33,12 @@ div{
 	align-self:center;
 }
 
+img{
+  	width: 75vw;
+}
+
 .block{
-	border: 2.5px solid #005BBB;
+	border: .25vw solid #005BBB;
 	border-radius: 10px;
 }
 
@@ -72,9 +76,9 @@ b{
 	justify-content: space-around;
 	align-items: center;
 	border: 2.5px solid #005BBB;
-	border-radius: 20px;
+	border-radius: 2vw;
 	background-color: #faf8ee;
-	padding: 2rem;
+	padding: 1.5vw;
 	transition-property: background;
     transition-duration: .5s;
     transition-timing-function: linear;
@@ -91,8 +95,8 @@ b{
 .text{
 	width:90%;
 	margin-top: 1rem;
-	font-family: glockgrotesque;
-	font-size: 20px;
+	font-family: glockgrotesque, ARIAL, sans-serif;
+	font-size: 2vw;
 	border: 2.5px solid #005BBB;
 	border-radius: 10px;
 	background-color: #faf8ee;
@@ -103,22 +107,7 @@ b{
 .text:hover{
 	width:75%;
 	margin-top: 1rem;
-	font-size: 30px;
-	color: #FFD500;
-	border-radius: 50px;
-	padding: 2.5rem;
-	background-color: #005bbb;
-}
-
-.wrap{
-	visibility: hidden;
-}
-
-.wrap:hover{
-	visibility: visible;
-	width:75%;
-	margin-top: 1rem;
-	font-size: 30px;
+	font-size: 3vw;
 	color: #FFD500;
 	border-radius: 50px;
 	padding: 2.5rem;
@@ -141,3 +130,54 @@ b{
 #padding-top {
 	padding-top: 1rem;
 }
+
+@media screen and (max-width: 500px){
+  body{
+  	font-size:20px;
+  }
+
+  .block{
+  	color: #FFD500;
+	background-color: #005bbb;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .container{
+	display:inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	border: 2.5px solid #005BBB;
+	border-radius: 50px;
+	background-color: #faf8ee;
+	padding: .5rem;
+	transition-property: background;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+  } 
+
+  .text{
+	width:90%;
+	margin-top: 1rem;
+	font-family: glockgrotesque;
+	font-size: 20px;
+	border: 1.5px solid #FFD500;
+	border-radius: 10px;
+	background-color: #005bbb;
+  }
+
+  .text:hover{
+	width:90%;
+	margin-top: 1rem;
+	font-family: glockgrotesque;
+	font-size: 20px;
+	border: 1.5px solid #FFD500;
+	border-radius: 10px;
+	background-color: #005bbb;
+  }
+
+  }
+
+ }
