@@ -22,7 +22,7 @@ body{
 	align-content: center;
 	background-color: #FAF8EE;
 	color: #2C2B2B;
-	font-size: 3.8vw;
+	font-size: 3vw;
 	font-family: craftworksans-regular,helvetica,sans-serif;
 }
 
@@ -34,7 +34,7 @@ div{
 }
 
 img{
-  	width: 75vw;
+  	width: 70vw;
 }
 
 .block{
@@ -44,9 +44,9 @@ img{
 
 .box{
 	text-align: center;
-	height: 100px;
+	height: 10vh;
 	border: 1px solid #2C6DF0 0%;
-	border-radius: 10px;
+	border-radius: 1vw;
 }
 
 #center{
@@ -79,6 +79,7 @@ b{
 	border-radius: 2vw;
 	background-color: #faf8ee;
 	padding: 1.5vw;
+	margin-bottom: .5vw;
 	transition-property: background;
     transition-duration: .5s;
     transition-timing-function: linear;
@@ -88,6 +89,7 @@ b{
 .container:hover{
 	color: #FFD500;
 	font-size: 30px;
+	margin-bottom: .5vw;
 	border-radius: 50px;
 	background-color: #005bbb;
 }
@@ -98,31 +100,29 @@ b{
 	font-family: glockgrotesque, ARIAL, sans-serif;
 	font-size: 2vw;
 	border: 2.5px solid #005BBB;
-	border-radius: 10px;
+	border-radius: 1vw;
 	background-color: #faf8ee;
     transition-duration: .5s;
     transition-timing-function: linear;
 }
 
 .text:hover{
-	width:75%;
+
 	margin-top: 1rem;
 	font-size: 3vw;
 	color: #FFD500;
-	border-radius: 50px;
-	padding: 2.5rem;
 	background-color: #005bbb;
 }
 
 .bg{
-	font-size: 40px;
+	font-size: 3.8vw;
 	color:#2C2B2B ;
 	transition-duration: .5s;
     transition-timing-function: linear;
 }
 
 .bg:hover{
-	font-size: 50px;
+	font-size: 5vw;
 	color: #FFD500;
 	background-color: #005bbb;
 }
@@ -131,7 +131,7 @@ b{
 	padding-top: 1rem;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 576px){
   body{
   	font-size:20px;
   }
@@ -147,22 +147,23 @@ b{
 	display:inline-flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	border: 2.5px solid #005BBB;
-	border-radius: 50px;
+	border-radius: 2vw;
 	background-color: #faf8ee;
-	padding: .5rem;
+	padding: 1.5vw;
+	margin-bottom: 1rem;
 	transition-property: background;
     transition-duration: .5s;
     transition-timing-function: linear;
-  } 
+  }
 
   .text{
 	width:90%;
 	margin-top: 1rem;
 	font-family: glockgrotesque;
-	font-size: 20px;
+	font-size: 2.5vw;
 	border: 1.5px solid #FFD500;
 	border-radius: 10px;
 	background-color: #005bbb;
@@ -172,12 +173,10 @@ b{
 	width:90%;
 	margin-top: 1rem;
 	font-family: glockgrotesque;
-	font-size: 20px;
+	font-size: 3vw;
 	border: 1.5px solid #FFD500;
 	border-radius: 10px;
 	background-color: #005bbb;
-  }
-
   }
 
  }
