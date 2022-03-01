@@ -12,7 +12,7 @@ body {
   background-color: #949799;
   color: #c2ffd3;
   font-family: newbaosong,times new roman,serif;
-  font-size: 54px;
+  font-size: min(5vw,55px);
   text-align: left;
   padding: .5em;
   position: fixed;
@@ -44,3 +44,12 @@ sup{
     font-size: 30px;
 }
 
+@media screen and (max-width: 600px){
+    body{
+        font-size: 40px;
+    }
+
+    sup{
+    font-size: 25px;
+}
+}
