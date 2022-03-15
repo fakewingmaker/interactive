@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>life in one day</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<span>What do you want to do right now?<span>
+
+	<!-- inputs -->
+	<input type="checkbox" id="sleep">
+	<label for="">sleep</label>
+
+	<input type="checkbox" id="eat">
+	<label for="">eat</label>
+
+	<input type="checkbox" id="work">
+	<label for="">work</label>
+
+    <input type="checkbox" id="play">
+	<label for="">play</label>
+
+	<div class="sleep time">
+		<label for="sleep">where do you want to sleep?</label>
+		<br>
+
+        <select name="sleep" class="box" id="sleep_options">
+         <option value="0">choose a location:</option>
+         <option value="1">bed</option>
+         <option value="2">jungle</option>
+         <option value="3">cloud</option>
+         <option value="4">coffin</option>
+       </select>
+       <br>
+       <br>
+       <img class="images_sleep">
+	</div>
+
+    <div class="eat time">
+    	<label for="eat">how do you want to eat?</label>
+    	<br>
+
+    	<select name="eat" class="box" id="eat_options">
+    		<option value="0">choose a method:</option>
+    		<option value="1">lick</option>
+    		<option value="2">chew</option>
+    		<option value="3">bite</option>
+    		<option value="4">swallow</option>
+    	</select>
+       <br>
+       <br>
+       <img class="images_eat">
+    </div>
+
+    <div class="work time">
+    	<label for="work">what do you want to work on?</label>
+    	<br>
+
+    	<select name="work" class="box" id="work_options">
+    		<option value="0">choose a project:</option>
+    		<option value="1">self-ego</option>
+    		<option value="2">insecurity</option>
+    		<option value="3">jealousy</option>
+    		<option value="4">greed</option>
+    	</select>
+       <br>
+       <br>
+       <img class="images">
+    </div>
+
+    <div class="play time">
+    	<label for="play">who do you want to play with?</label>
+    	<br>
+
+    	<select name="play" class="box" id="play_options">
+    		<option value="0">choose someone:</option>
+    		<option value="1">he</option>
+    		<option value="2">she</option>
+    		<option value="3">they</option>
+    		<option value="4">it</option>
+    	</select>
+       <br>
+       <br>
+       <img class="images">
+    </div>
+
+	<!-- link to the jquery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- link to javascript -->
+	<script src="main.js"></script>
+
+
+</body>
+</html>
