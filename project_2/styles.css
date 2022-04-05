@@ -1,0 +1,46 @@
+body{
+	font-family: helvatica, sans-serif;
+}
+
+div{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;	
+}
+
+img{
+/*	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;*/
+	height: 200px;
+	padding: .125rem;
+
+}
+
+@media print{
+	label{
+		display: none;
+	}
+
+	input{
+		display: none;
+	}
+
+	body{
+		width: 100vw;
+		margin: 1rem;
+	}
+
+	img{
+		display: inline-flex;
+		height: 144px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 1.5px;
+		padding-right: 1.5px;
+	}
+
+}
