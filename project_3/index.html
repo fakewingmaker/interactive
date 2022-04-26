@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Missed Connections</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="footnote">if you want to broascast a Missed Connection, you could fill out the form <a href="https://airtable.com/shrBawQKraZkufU6Y" target="blank">here</a>.
+    </div>
+
+    <div class="archive"><a href="archive/index.html" target="blank">see all the posts here.</a></div>
+
+    <!-- the HTML includes a template. With JS, we'll put content from airtable into these divs. -->
+    <div id="slide">
+      <div id="slide-text">
+        <span id="title"></span>: 
+        <i id="location"></i>,
+        <h2 id="message"></h2>
+        <h3 id="connect"></h3>
+        <h4 id="date"></h4>
+      </div>
+      <img src="" id="img">
+    </div>
+
+    <!-- load the JS files -->
+    <script src="js/airtable.browser.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

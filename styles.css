@@ -18,11 +18,7 @@ body {
   position: fixed;
       }
 
-span {
-    text-indent: 108px;
-}
-
-Div{
+div{
     position: fixed;
     left: .5em;
     bottom: .5em;

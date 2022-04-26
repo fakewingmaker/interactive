@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body {
+  font-family: Arial Narrow, san serif;
+}
+
+#slide {
+  font-family: 'EB Garamond',serif;
+  cursor: pointer;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#slide-text {
+  width: 70vw;
+  overflow: scroll;
+  position: relative;
+  margin-top: 10px;
+  font-size: 6vw;
+  text-align: left;
+  padding: 10px;
+}
+
+/*#slide:hover > #slide-text {
+  color: red;
+}*/
+
+.title{
+  font-size: 6.25vw;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 6vw;
+}
+
+#img{
+  position: fixed;
+  z-index: -1000;
+  flex-direction: center;
+  width: 75vw;
+
+}
+
+.footnote {
+  position: fixed;
+  bottom: .5rem;
+  left: .5rem;
+}
+
+.archive{
+  position: fixed;
+  bottom: .5rem;
+  right: .5rem;
+}
