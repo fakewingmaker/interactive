@@ -12,15 +12,15 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  align-items: center;
+  line-height: 4vw;
 }
 
 #slide-text {
-  width: 70vw;
+  width: 67.5vw;
   overflow: scroll;
   position: relative;
   margin-top: 10px;
-  font-size: 6vw;
+  font-size: 3.5vw;
   text-align: left;
   padding: 10px;
 }
@@ -30,20 +30,36 @@ body {
 }*/
 
 .title{
-  font-size: 6.25vw;
+  font-size: 3.5vw;
+}
+
+i{
+  font-size: 3vw;
+  font-weight: 600;
 }
 
 h2{
   font-weight: 500;
-  font-size: 6vw;
+  font-size: 3.5vw;
 }
+
+h3{
+  font-size: 3.5vw;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 2vw;
+  font-weight: 200;
+}
+
 
 #img{
   position: fixed;
   z-index: -1000;
   flex-direction: center;
   width: 75vw;
-
+  opacity: .5;
 }
 
 .footnote {

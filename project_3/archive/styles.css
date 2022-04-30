@@ -11,6 +11,18 @@ div{
   font-size: min(2.5vw,25px);
 }
 
+a{
+  color: #757575;
+  text-decoration: none;
+}
+
+a:hover {
+  font-style: italic;
+  background-color: #fffcf5;
+
+
+}
+
 .middiv{
   width: 100%;
   border: .05vw solid darkgrey;

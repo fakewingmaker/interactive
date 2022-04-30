@@ -165,55 +165,55 @@ function showRow(row) {
     const img = document.getElementById("img");
 
     if (row.fields.location == "Beinecke plaza"){
-        img.src = "pic/Beinecke.jpeg";
+        img.src = "pic/Beinecke.png";
     }
 
     else if (row.fields.location == "YUAG sidewalk"){
-        img.src = "pic/yuag.jpeg";
+        img.src = "pic/yuag.png";
     }
 
-    else if (row.fields.location == "art school (chapel)"){
+    else if (row.fields.location == "Art School (Chapel)"){
         img.src = "pic/chapel.png";
     }
 
-    else if (row.fields.location == "art school (edgewood)"){
-        img.src = "pic/edgewood.jpeg";
+    else if (row.fields.location == "Art School (Edgewood)"){
+        img.src = "pic/edgewood.png";
     }
 
     else if (row.fields.location == "Cross Campus Lawn"){
-        img.src = "pic/crosscampus.jpeg";
+        img.src = "pic/crosscampus.png";
     }
 
     else if (row.fields.location == "Haas Library"){
-        img.src = "pic/haas.jpeg";
+        img.src = "pic/haas.png";
     }
 
     else if (row.fields.location == "Bass Library"){
-        img.src = "pic/bass.jpeg";
+        img.src = "pic/bass.png";
     }
 
     else if (row.fields.location == "Sterling Library"){
-        img.src = "pic/sterling.jpeg";
+        img.src = "pic/sterling.png";
     }
 
-    else if (row.fields.location == "HQ"){
-        img.src = "pic/hq.jpeg";
+    else if (row.fields.location == "Humanities Quadrangle"){
+        img.src = "pic/hq.png";
     }
 
     else if (row.fields.location == "Rudolph Hall"){
-        img.src = "pic/rudolph.jpeg";
+        img.src = "pic/rudolph.png";
     }
 
     else if (row.fields.location == "Union Station"){
-        img.src = "pic/unionstation.jpeg";
+        img.src = "pic/unionstation.png";
     }
 
     else if (row.fields.location == "Science Hill"){
-        img.src = "pic/sciencehill.jpeg";
+        img.src = "pic/sciencehill.png";
     }
 
     else if (row.fields.location == "Yale Farm"){
-        img.src = "pic/farm.jpeg";
+        img.src = "pic/farm.png";
     }
 
 
