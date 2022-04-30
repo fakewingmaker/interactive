@@ -166,6 +166,7 @@ function showRow(row) {
 
     if (row.fields.location == "Beinecke plaza"){
         img.src = "pic/Beinecke.png";
+        // slide.css('color','')
     }
 
     else if (row.fields.location == "YUAG sidewalk"){
@@ -174,6 +175,7 @@ function showRow(row) {
 
     else if (row.fields.location == "Art School (Chapel)"){
         img.src = "pic/chapel.png";
+        $('#slide-text').css('color','blue');
     }
 
     else if (row.fields.location == "Art School (Edgewood)"){
@@ -182,6 +184,7 @@ function showRow(row) {
 
     else if (row.fields.location == "Cross Campus Lawn"){
         img.src = "pic/crosscampus.png";
+        // $('#slide').css('color','green');
     }
 
     else if (row.fields.location == "Haas Library"){
