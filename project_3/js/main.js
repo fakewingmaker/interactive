@@ -175,7 +175,7 @@ function showRow(row) {
 
     else if (row.fields.location == "Art School (Chapel)"){
         img.src = "pic/chapel.png";
-        $('#slide-text').css('color','blue');
+        // $('#slide-text').css('color','blue');
     }
 
     else if (row.fields.location == "Art School (Edgewood)"){
@@ -184,6 +184,7 @@ function showRow(row) {
 
     else if (row.fields.location == "Cross Campus Lawn"){
         img.src = "pic/crosscampus.png";
+        SELECT
         // $('#slide').css('color','green');
     }
 
