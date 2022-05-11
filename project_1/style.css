@@ -50,8 +50,9 @@ img{
 	height: 10vh;
 	border: 1px solid #2C6DF0 0%;
 	border-radius: 1vw;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
+	align-content: center;
 }
 
 #center{
@@ -82,7 +83,6 @@ b{
 	border-radius: 2vw;
 	background-color: #faf8ee;
 	padding: 1.5vw;
-	margin-bottom: .5vw;
 	transition-property: background;
     transition-duration: .5s;
     transition-timing-function: linear;
@@ -114,6 +114,7 @@ b{
 	margin-top: 1rem;
 	font-size: 3vw;
 	color: #FFD500;
+	line-height: 2vh;
 	background-color: #005bbb;
 }
 
@@ -166,6 +167,7 @@ p{
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+	align-content: center;
 	border: 2.5px solid #005BBB;
 	border-radius: 2vw;
 	background-color: #faf8ee;
@@ -192,6 +194,7 @@ p{
 	margin-top: 1rem;
 	font-family: glockgrotesque;
 	font-size: 24px;
+	line-height: 22px;
 	border: 1.5px solid #FFD500;
 	border-radius: 10px;
 	background-color: #005bbb;
