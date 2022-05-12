@@ -3,6 +3,7 @@
 body{
 	font-family: helvatica, sans-serif;
 	padding: 2rem;
+	background-color: #e6e6e6;
 }
 
 div{
@@ -50,6 +51,7 @@ img{
 	body{
 		background-color: #808080;
 		width: 100vw;
+		padding: 0;
 		margin: 2rem;
 	}
 

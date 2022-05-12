@@ -1,0 +1,33 @@
+@font-face{
+  font-family: craftworksans-regular;
+  src: url(fonts/CraftworkSans-Regular.ttf);
+}
+
+@font-face{
+  font-family: boogybrut;
+  src: url(fonts/BoogyBrutPosterTEST-White.otf);
+}
+
+@font-face{
+  font-family: glock-medium;
+  src: url(fonts/GlockGrotesque2-Medium.otf);
+}
+
+@font-face{
+  font-family: SwearText-ThinCilati;
+  src: url(fonts/SwearTextDemo-ThinCilati.otf);
+}
+
+@font-face{
+  font-family: FZNBSK;
+  src: url(fonts/FZNBSK.TTF);
+}
+
+.message{
+  padding: 1rem;
+  font-size: min(5vw,50px);
+}
+
+body{
+  margin: 0;
+}
